@@ -1,0 +1,6 @@
+{
+  "name": "Borgo",
+  "description": "Sitio web inmobiliario premium de estilo Framer con tecnología de hogar inteligente, catálogos exclusivos y agendamiento de citas privadas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
