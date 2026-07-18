@@ -12,6 +12,8 @@ import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
 import { PropertyDetailsModal, AppointmentSchedulerModal } from "./components/Modals";
 import { Property } from "./types";
+import { Bubble } from "@typebot.io/react";
+
 
 // Import custom generated high-fidelity assets
 import heroImage from "./assets/images/luxury_villa_hero_1784087638932.jpg";
@@ -131,7 +133,12 @@ export default function App() {
       <AppointmentSchedulerModal
         isOpen={isSchedulerOpen}
         onClose={handleCloseScheduler}
-      />
+      
+        <Bubble
+        typebot="borgo-bot-g72goqb"
+        apiHost="https://typebot.io"
+        theme={{ button: { backgroundColor: "#1D1D1D" } }}
+        />
     </div>
   );
 }
