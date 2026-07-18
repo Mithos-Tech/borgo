@@ -127,7 +127,7 @@ export default function App() {
         favorites={favorites}
         onToggleFavorite={handleToggleFavorite}
         onOpenScheduler={handleOpenScheduler}
-      />
+      
 
       {/* Appointment Scheduler Modal */}
       <AppointmentSchedulerModal
