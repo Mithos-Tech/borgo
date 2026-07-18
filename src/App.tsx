@@ -136,8 +136,6 @@ export default function App() {
       
         <Bubble
         typebot="borgo-bot-g72goqb"
-        apiHost="https://typebot.io"
-        theme={{ button: { backgroundColor: "#1D1D1D" } }}
         />
     </div>
   );
