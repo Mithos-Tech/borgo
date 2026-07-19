@@ -139,7 +139,13 @@ export default function App() {
       <Bubble
         typebot="borgo-bot-g72goqb"
         apiHost="https://typebot.io"
-        theme={{ button: { backgroundColor: "#1D1D1D" } }}
+        theme={{
+          button: {
+            backgroundColor: "#c5a880",
+            customIconSrc:
+              "https://res.cloudinary.com/chlgeobm/image/upload/v1784434688/icon_IA_irywho.svg",
+          },
+        }}
       />
     </div>
   );
