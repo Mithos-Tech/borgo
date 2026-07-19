@@ -134,9 +134,8 @@ export default function App() {
         isOpen={isSchedulerOpen}
         onClose={handleCloseScheduler}
       
-        <Bubble
-        typebot="borgo-bot-g72goqb"
-        />
+        <Bubble typebot="borgo-bot-g72goqb" />
+
     </div>
   );
 }
