@@ -142,6 +142,7 @@ export default function App() {
         theme={{
           button: {
             backgroundColor: "transparent",
+            size: "large",
             customIconSrc:
               "https://res.cloudinary.com/chlgeobm/image/upload/v1784434688/icon_IA_irywho.svg",
           },
