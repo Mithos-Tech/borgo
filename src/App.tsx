@@ -127,15 +127,20 @@ export default function App() {
         favorites={favorites}
         onToggleFavorite={handleToggleFavorite}
         onOpenScheduler={handleOpenScheduler}
-      
+      />
 
       {/* Appointment Scheduler Modal */}
       <AppointmentSchedulerModal
         isOpen={isSchedulerOpen}
         onClose={handleCloseScheduler}
-      
-        <Bubble typebot="borgo-bot-g72goqb" />
+      />
 
+      {/* Typebot chat bubble (connected to Make automation) */}
+      <Bubble
+        typebot="borgo-bot-g72goqb"
+        apiHost="https://typebot.io"
+        theme={{ button: { backgroundColor: "#1D1D1D" } }}
+      />
     </div>
   );
 }
