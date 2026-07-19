@@ -141,7 +141,7 @@ export default function App() {
         apiHost="https://typebot.io"
         theme={{
           button: {
-            backgroundColor: "#ffffff",
+            backgroundColor: "transparent",
             customIconSrc:
               "https://res.cloudinary.com/chlgeobm/image/upload/v1784434688/icon_IA_irywho.svg",
           },
