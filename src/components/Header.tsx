@@ -59,7 +59,7 @@ export default function Header({
           {/* Logo */}
           <a href="#inicio" className="flex items-center gap-2.5 group">
             <img 
-              src="https://res.cloudinary.com/chlgeobm/image/upload/v1784506413/logo_m8vu0c.svg" 
+              src="https://res.cloudinary.com/chlgeobm/image/upload/v1784507340/logo_header_pgrt3r.svg" 
               alt="Borgo Logo" 
               className="w-8 h-8 object-contain transition-transform group-hover:scale-110 duration-300"
               referrerPolicy="no-referrer"
@@ -136,7 +136,7 @@ export default function Header({
             <div className="flex flex-col items-center text-center pt-2">
               {/* Logo icon */}
               <img 
-                src="https://res.cloudinary.com/chlgeobm/image/upload/v1784506413/logo_m8vu0c.svg" 
+                src="https://res.cloudinary.com/chlgeobm/image/upload/v1784507340/logo_header_pgrt3r.svg" 
                 alt="Borgo Logo" 
                 className="w-10 h-10 object-contain mb-2 select-none"
                 referrerPolicy="no-referrer"
