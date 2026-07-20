@@ -51,20 +51,20 @@ export default function Header({
       {/* Topmost floating header wrapper */}
       <header
         id="navbar-header"
-        className={`fixed ${isScrolled ? "opacity-0 pointer-events-none -translate-y-8" : "opacity-100 translate-y-0"} top-6 md:top-8 left-0 right-0 z-50 transition-all duration-500 px-9 sm:px-12 md:px-16 lg:px-8 bg-transparent py-4`}
+        className={`fixed ${isScrolled ? "opacity-0 pointer-events-none -translate-y-8" : "opacity-100 translate-y-0"} top-6 md:top-8 left-0 right-0 z-50 transition-all duration-500 px-12 sm:px-16 md:px-20 lg:px-10 bg-transparent py-5`}
       >
         <div
           className="max-w-7xl mx-auto flex items-center justify-between"
         >
           {/* Logo */}
-          <a href="#inicio" className="flex items-center gap-2.5 group">
+          <a href="#inicio" className="flex items-center gap-3 group">
             <img 
-              src="https://res.cloudinary.com/chlgeobm/image/upload/v1784507340/logo_header_pgrt3r.svg" 
+              src="https://res.cloudinary.com/chlgeobm/image/upload/v1784583257/logo_bor_tgtbyy.svg" 
               alt="Borgo Logo" 
-              className="w-8 h-8 object-contain transition-transform group-hover:scale-110 duration-300"
+              className="w-9.5 h-9.5 md:w-11 md:h-11 object-contain transition-transform group-hover:scale-110 duration-300"
               referrerPolicy="no-referrer"
             />
-            <span className="font-serif text-lg md:text-xl font-bold tracking-wider text-white transition-colors group-hover:text-[#d4b26f]">
+            <span className="font-serif text-xl md:text-2xl font-bold tracking-wider text-white transition-colors group-hover:text-[#d4b26f]">
               Borgo
             </span>
           </a>
@@ -77,7 +77,7 @@ export default function Header({
                 <a
                   key={link.href}
                   href={link.href}
-                  className={`px-4.5 py-2 rounded-full text-xs font-semibold tracking-wide transition-all duration-300 ${
+                  className={`px-5 py-2.5 rounded-full text-[13px] md:text-sm font-semibold tracking-wider transition-all duration-300 ${
                     isActive
                       ? "bg-white text-zinc-950 shadow-md hover:bg-zinc-100"
                       : "bg-black/30 backdrop-blur-sm border border-white/15 text-zinc-200 hover:border-white/40 hover:bg-white/10"
@@ -94,7 +94,7 @@ export default function Header({
             {/* Contacto Highlighted Button */}
             <a
               href="#contacto"
-              className="flex items-center gap-2 bg-[#d4b26f] text-black px-6 py-2 rounded-full text-xs font-bold tracking-widest uppercase hover:bg-white hover:text-black transition-all duration-300 shadow-[0_4px_20px_rgba(212,178,111,0.25)] border border-[#d4b26f] hover:border-white"
+              className="flex items-center gap-2.5 bg-[#d4b26f] text-black px-7 py-3 rounded-full text-[13px] md:text-sm font-bold tracking-widest uppercase hover:bg-white hover:text-black transition-all duration-300 shadow-[0_4px_20px_rgba(212,178,111,0.25)] border border-[#d4b26f] hover:border-white"
             >
               <span>Contacto</span>
             </a>
@@ -105,9 +105,9 @@ export default function Header({
             {/* Hamburger menu */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="w-8 h-8 rounded-full bg-black/30 backdrop-blur-sm border border-white/15 flex items-center justify-center text-white"
+              className="w-10 h-10 rounded-full bg-black/35 backdrop-blur-md border border-white/15 flex items-center justify-center text-white hover:bg-white/10 transition-all duration-300 shadow-md"
             >
-              {isMobileMenuOpen ? <X size={15} /> : <Menu size={15} />}
+              {isMobileMenuOpen ? <X size={18} /> : <Menu size={18} />}
             </button>
           </div>
         </div>
@@ -136,7 +136,7 @@ export default function Header({
             <div className="flex flex-col items-center text-center pt-2">
               {/* Logo icon */}
               <img 
-                src="https://res.cloudinary.com/chlgeobm/image/upload/v1784507340/logo_header_pgrt3r.svg" 
+                src="https://res.cloudinary.com/chlgeobm/image/upload/v1784583257/logo_bor_tgtbyy.svg" 
                 alt="Borgo Logo" 
                 className="w-10 h-10 object-contain mb-2 select-none"
                 referrerPolicy="no-referrer"

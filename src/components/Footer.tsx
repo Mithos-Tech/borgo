@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="lg:col-span-5 space-y-4">
             <a href="#inicio" className="flex items-center gap-2.5">
               <img 
-                src="https://res.cloudinary.com/chlgeobm/image/upload/v1784506413/logo_m8vu0c.svg" 
+                src="https://res.cloudinary.com/chlgeobm/image/upload/v1784583257/logo_bor_tgtbyy.svg" 
                 alt="Borgo Logo" 
                 className="w-8 h-8 object-contain"
                 referrerPolicy="no-referrer"
