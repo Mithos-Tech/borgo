@@ -79,3 +79,9 @@
   color: transparent;
 }
 
+@media (max-width: 480px) {
+  typebot-bubble::part(bot) {
+    max-width: calc(100vw - 1rem) !important;
+    right: 0.5rem !important;
+  }
+}
